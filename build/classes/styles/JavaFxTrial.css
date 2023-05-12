@@ -1,0 +1,465 @@
+#welcome
+    {
+        -fx-background-image:url(Images/welcomebackground.jpg);
+        -fx-background-color:white;
+        -fx-background-size:1800 800;
+        -fx-background-repeat:no-repeat;
+    }
+    
+#playingpane
+    {
+        -fx-background-image:url(Images/welcomebackground.jpg);
+        -fx-background-size:1800 800;
+        -fx-background-repeat:no-repeat;
+    }
+    
+#playerselectionpane
+    {
+        -fx-background-image:url(Images/welcomebackground.jpg);
+        -fx-background-size:1800 800;
+        -fx-background-repeat:no-repeat;
+    }
+#odigies
+    {
+        -fx-background-image:url(Images/welcomebackground.jpg);
+        -fx-background-size:1800 800;
+        -fx-background-repeat:no-repeat;
+    }
+    
+#gramma
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:black;
+        -fx-border-radius:50;
+        -fx-background-radius: 20;
+        -fx-font-size:15;
+        -fx-border-width:1.5;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: white;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#correctgramma
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:green;
+        -fx-border-radius:50;
+        -fx-background-radius: 20;
+        -fx-font-size:15;
+        -fx-border-width:2;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: white;
+        -fx-border-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+        -fx-opacity:30.0;
+    }
+    
+#lathosgramma
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:red;
+        -fx-border-radius:50;
+        -fx-background-radius: 20;
+        -fx-font-size:15;
+        -fx-border-width:2;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: white;
+        -fx-border-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#lines
+    {
+        -fx-stroke:white;
+        -fx-stroke-width:2;
+    }
+    
+#Defeat
+    {
+        -fx-fill: white;
+        -fx-font-size:80;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+    }
+
+#loserpane
+    {
+        -fx-background-color:Red;
+    }
+#one
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:black;
+        -fx-border-radius:50;
+        -fx-background-radius: 30;
+        -fx-font-size:90;
+        -fx-border-width:3;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: black;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#three
+    {
+        -fx-background-color: transparent;
+        -fx-background-radius: 30;
+        -fx-border-color:black;
+        -fx-border-radius:50;
+        -fx-font-size:90;
+        -fx-border-width:3;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: black;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#SinglePlayer
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:black;
+        -fx-border-radius:50;
+        -fx-background-radius: 30;
+        -fx-font-size:30;
+        -fx-border-width:3;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: ghostwhite ;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#MultiPlayer
+    {
+        -fx-background-color: transparent;
+        -fx-border-color:black;
+        -fx-border-radius:50;
+        -fx-background-radius: 30;
+        -fx-font-size:30;
+        -fx-border-width:3;
+        -fx-background-insets: 0,1,1;
+        -fx-text-fill: ghostwhite ;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#scores
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:50;
+        -fx-font-weight : bold;
+    }
+    
+#names
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:25;
+        -fx-text-fill : white;
+        -fx-font-weight : bold;
+    }
+    
+#meaning
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:20;
+        -fx-font-weight : bold;
+        -fx-text-fill:white;
+    }  
+
+#waslookingfor
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:35;
+        -fx-font-weight:bold;
+        -fx-text-fill:white;
+    }
+    
+.slider
+    {
+        -fx-pref-height:250;
+        -fx-pref-width:350;
+    } 
+    
+.slider .track 
+{
+    -fx-background-color: linear-gradient(to right, white 0%, black 100%, -fx-base 100%, -fx-base 100%);
+}
+    
+.slider .thumb 
+    {
+        -fx-pref-height: 30;
+        -fx-pref-width: 30;
+    }
+    
+#choosediff
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:70;
+        -fx-text-fill:black;
+        -fx-font-weight : bold;
+    }
+    
+#choosekind
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:55;
+        -fx-text-fill:black;
+        -fx-font-weight : bold;
+    }
+
+#difflabel
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:45;
+        -fx-text-fill:white;
+        -fx-font-weight : bold;
+        
+    }
+    
+#Easy
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:45;
+        -fx-text-fill:white;
+        -fx-font-weight : bold;
+    }
+    
+#Hard
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:50;
+        -fx-text-fill:grey;
+        -fx-font-weight : bold;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#Impossibru
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:55;
+        -fx-text-fill:black;
+        -fx-font-weight : bold;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    }
+    
+#victory
+    {
+        -fx-font-family : "Courier New";
+        -fx-font-weight : bold;
+        -fx-font-size:80;
+    }
+
+#winnerpane
+    {
+        -fx-background-color:greenyellow;
+
+    }
+
+#Replay
+    {
+        -fx-background-color:greenyellow;
+        -fx-font-size:80;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+    }
+    
+#restart
+    {
+        -fx-background-color: transparent;
+    }
+    
+#Play
+    {
+        -fx-background-color: transparent;
+        -fx-font-size:120;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+        -fx-border-width:3;
+        -fx-border-radius: 35;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+        -fx-border-color:white;
+        -fx-text-fill:silver;
+    }
+
+#wordf
+    {
+        -fx-font-family: "Courier New";
+        -fx-font-size:80;
+        -fx-background-color:gainsboro;
+        -fx-font-weight : bold;
+        -fx-background-color: transparent;
+        -fx-border-color:white;
+        -fx-border-width:3;
+        -fx-text-fill:white;
+    }
+    
+#Ekkinisi
+    {
+        -fx-background-color:transparent;
+        -fx-font-family:"Courier New";
+        -fx-font-size:75;
+        -fx-font-weight : bold;
+        -fx-border-width:3;
+        -fx-border-radius: 35;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+        -fx-border-color:black ;
+        -fx-text-fill:black;
+    }
+    
+#cgwl
+    {
+        -fx-font-family:"Courier New";
+        -fx-font-weight:bold;
+        -fx-font-size:80;
+    }
+
+#howmany
+    {
+        -fx-font-family:"Courier New";
+        -fx-font-weight:bold;
+        -fx-font-size:45;
+    }
+#exit
+    {
+        -fx-background-color: transparent;
+        
+    }
+    
+#player1
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:40;
+        -fx-fill:linear-gradient(to right, black 0%, white 100%, -fx-base 100%, -fx-base 90%);
+        -fx-font-weight : bold;
+    }
+
+#player2
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:40;
+        -fx-fill:linear-gradient(to right, white 0%, black 100%, -fx-base 100%, -fx-base 90%);
+        -fx-font-weight : bold;
+    }
+
+#playerf1
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:25;
+        -fx-background-color: transparent;
+        -fx-font-weight : bold;
+        -fx-border-color:white;
+        -fx-border-width:3;
+        -fx-text-fill:white;
+    }
+
+#playerf2
+    {
+        -fx-font-family: "Verdana";
+        -fx-font-size:25;
+        -fx-background-color: transparent;
+        -fx-font-weight : bold;
+        -fx-border-color:white;
+        -fx-text-fill:white;
+    }
+
+#Sinexeia
+    {
+        -fx-background-color:transparent;
+        -fx-font-size:60;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+        -fx-border-width:3;
+        -fx-border-radius: 35;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+        -fx-border-color:black;
+        -fx-text-fill:black;
+        
+    }
+    
+#Continue
+    {
+        -fx-background-color:transparent;
+        -fx-font-size:30;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+        -fx-border-width:3;
+        -fx-border-radius: 35;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+        -fx-border-color:black;
+        -fx-text-fill:black;
+    }
+    
+#paiktis1
+    {
+            -fx-fill: white;
+            -fx-font-family:"Verdana";
+            -fx-font-weight:bold;
+            -fx-font-size:80;
+            -fx-text-alignment: center;
+    }
+    
+#paiktis2
+    {
+            -fx-fill: white;
+            -fx-font-family:"Verdana";
+            -fx-font-weight:bold;
+            -fx-font-size:80;
+            -fx-text-alignment: center;
+    }
+
+#prospathies
+    {
+        -fx-text-fill:black;
+        -fx-font-family:"Courier New";
+        -fx-font-weight:bold;
+        -fx-font-size:120;
+    }
+    
+#instructions
+    {
+        -fx-background-color:transparent;
+        -fx-font-size:35;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+        -fx-text-fill:white;
+        -fx-border-color:white;
+        -fx-border-width:4;
+    }
+
+#gamerules
+    {
+            -fx-font-size:30;
+            -fx-font-family: "Courier New";
+            -fx-font-weight : bold;
+            -fx-text-alignment: center;
+            -fx-fill:white;
+    }
+
+#homepage
+    {
+        -fx-background-color:transparent;
+        -fx-font-size:50;
+        -fx-font-family: "Courier New";
+        -fx-font-weight : bold;
+        -fx-text-fill:white;
+    }
+    
+#Congratulations
+    {
+        -fx-text-weight:bold;
+        -fx-text-fill:white;
+        -fx-text-alignment: center;
+    }
+    
+#Done
+    {
+        -fx-text-weight:bold;
+        -fx-text-fill:white;
+        -fx-font-size:20;
+    }
+    
+#playagain
+    {
+        -fx-text-weight:bold;
+        -fx-text-fill:white;
+        -fx-font-size:20;
+        -fx-text-alignment: center;
+    }
+    
+#last
+    {
+        -fx-text-fill:white;
+    }
